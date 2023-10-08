@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Landify/static/css/main.fa027fca.css",
+    "main.js": "/Landify/static/js/main.5314a8cc.js",
+    "static/media/iPhone X.png": "/Landify/static/media/iPhone X.09f02405619a2e13197a.png",
+    "static/media/iPhone01.png": "/Landify/static/media/iPhone01.3206698751e00433497f.png",
+    "static/media/iPhone02.png": "/Landify/static/media/iPhone02.26364b4efc1d35e09ec8.png",
+    "static/media/world.png": "/Landify/static/media/world.0f51201745bcdcc8ac12.png",
+    "static/media/Mockup.png": "/Landify/static/media/Mockup.611766655e0093f7e6da.png",
+    "index.html": "/Landify/index.html",
+    "main.fa027fca.css.map": "/Landify/static/css/main.fa027fca.css.map",
+    "main.5314a8cc.js.map": "/Landify/static/js/main.5314a8cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa027fca.css",
+    "static/js/main.5314a8cc.js"
+  ]
+}
