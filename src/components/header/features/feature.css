@@ -1,0 +1,33 @@
+.feature {
+  padding: 58px 0 70px 0;
+}
+
+.feature__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 64px;
+}
+
+.feature__title {
+  color: #18191f;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+}
+
+.feature__subtitle {
+  padding: 12px 0 48px 0;
+  color: #18191f;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 540px;
+  line-height: 32px;
+  margin: 0 auto;
+  text-align: center;
+}

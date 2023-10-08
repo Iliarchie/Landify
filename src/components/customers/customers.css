@@ -1,0 +1,41 @@
+@import url("./customersCard/customersCard.module.css");
+
+.customers {
+  background: #d5fafc;
+  height: 932px;
+  position: relative;
+}
+
+.customers__items {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  position: absolute;
+  right: 95px;
+  top: 168px;
+}
+
+.customers__container {
+  position: relative;
+}
+
+.customers__item__right {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.customers__title {
+  width: 445px;
+  padding: 100px 0 8px 0;
+}
+
+.customers__subtitle {
+  color: var(--text-gray-900, #18191f);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  transition: 0.2s ease;
+}

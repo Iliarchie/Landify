@@ -1,0 +1,116 @@
+header {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.bgHeader {
+  position: absolute;
+  bottom: 206px;
+  right: -278px;
+  z-index: -1;
+}
+
+.bgHeader2 {
+  position: absolute;
+  bottom: 0;
+  left: -160px;
+  z-index: -1;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.haeder-menu__start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.haeder-menu__start .navigations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 34px;
+}
+
+.haeder-menu__start .navigations li a {
+  color: #18191f;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.haeder-menu__start .navigations li a::before {
+  content: "";
+  left: 0;
+  bottom: -3px;
+  height: 1px;
+  background-color: #18191f;
+  width: 0;
+  position: absolute;
+  transition: 0.2s ease;
+}
+
+.haeder-menu__start .navigations li a:hover::before {
+  width: 100%;
+}
+
+.haeder-menu__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-wrapper__img img {
+  height: 640px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 0 0;
+}
+
+.header-wrapper__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-wrapper__tite {
+  color: #18191f;
+  font-family: "Manrope", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 98px;
+  padding: 72px 0 32px 0;
+}
+
+.header-wrapper__btn {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 16px 41px;
+  background-color: #8c30f5;
+  display: inline-block;
+  width: 126px;
+  border-radius: 12px;
+  transition: 0.2s ease;
+  text-align: center;
+}
+
+.header-wrapper__btn:hover {
+  background-color: #6c18cb;
+}

@@ -1,0 +1,30 @@
+.achievement__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 255px;
+  height: 66px;
+}
+
+.achivement__card__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  color: #18191f;
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.card__subtitle {
+  color: #18191f;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}

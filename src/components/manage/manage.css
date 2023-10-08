@@ -1,0 +1,56 @@
+.manage {
+  background-color: #2ec5ce;
+  margin-top: 64px;
+  height: 495px;
+  position: relative;
+  overflow: hidden;
+}
+
+.iphone {
+  height: 464px;
+}
+
+.iphone2 {
+  position: relative;
+  bottom: -35px;
+}
+
+.manage__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage__title {
+  width: 540px;
+  padding: 68px 0 8px 0;
+}
+
+.manage__subtitle {
+  color: var(--text-gray-900, #18191f);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  width: 540px;
+}
+
+.manage__mobile {
+  display: flex;
+}
+
+.app__title {
+  padding: 48px 0 4px 0;
+  color: var(--text-gray-900, #18191f);
+
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.app__img {
+  display: flex;
+  gap: 4px;
+}
